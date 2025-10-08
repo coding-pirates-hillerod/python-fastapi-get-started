@@ -43,7 +43,7 @@ For om lidt at kunne kode dit eget simple API, så er du nødt til at installere
 
 Installationen af både VS Code og Python burde være rimelig lige til - ellers så få lige hjælp af en voksen.
 
-At installere FastAPI er også ret nemt. Men hvis ikke du ved, hvordan man installere Python pakker som FastAPI eller andet, så kommer her en muligt forklaring af, hvordan du gør.
+At installere FastAPI er også ret nemt. Men hvis ikke du ved, hvordan man installere Python pakker som FastAPI eller andet, så kommer her en forklaring på, hvordan du gør via VS Code.
 
 #### Installation af FastAPI
 
