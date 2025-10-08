@@ -118,7 +118,7 @@ Helt konkret skulle du gerne få et link a la <code>http://127.0.0.1:8000</code>
 ## Bidrag til dette materiale
 Dette materiale er lavet med bidrag af:
 
-- [Jonas Bak Phillispn](https://github.com/jbakchr) (_Formand og Kaptajn for Coding Pirates Hillerød_)
+- [Jonas Bak Phillipson](https://github.com/jbakchr) (_Formand og Kaptajn for Coding Pirates Hillerød_)
 
 ## Tak
 Til at skrive dette materiale har følgende ressourcer været brugt til at gøre det hele (forhåbentligt) mere forståeligt for både børn og voksne.
