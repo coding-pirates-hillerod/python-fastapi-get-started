@@ -65,7 +65,7 @@ Overordnet set er måden man koder sit eget API med FastAPI (i en fil kaldet <co
 
 Denne proces gennemgås opbyggeligt i nedenstående.
 
-### Importer FastAPI
+### Step 1: Importer FastAPI
 
 I en Python fil (altså en fil med filtypenavnet '.py' - her i vores et eksempel en fil kaldet 'main.py') skal du først importere FastAPI sådan her:
 
@@ -73,7 +73,7 @@ I en Python fil (altså en fil med filtypenavnet '.py' - her i vores et eksempel
 from fastapi import FastAPI
 ```
 
-### Lav en FastAPI 'app'
+### Step 2: Lav en FastAPI 'app'
 
 Med din import kan du lave en FastAPI 'app' ved at initialisere en variabel med et kald til FastAPI:
 
@@ -83,7 +83,7 @@ from fastapi import FastAPI
 app = FastAPI()
 ```
 
-### Definer dine routes
+### Step 3: Definer dine routes
 
 Her er vil blot definere en meget, meget simple route, hvis url du vil kunne besøge i din browser, når vi i næste step starte vores FastAPI udviklingsserver.
 
@@ -99,7 +99,7 @@ async def root():
     return {"message": "Hello World"}
 ```
 
-### Start en FastAPI udviklingsserver
+### Step 4: Start en FastAPI udviklingsserver
 Mere skal der faktisk ikke til for at lave - et godt nok virkelig, virkelig simpelt - API med FastAPI.
 
 Eneste du nu mangler er først at starte en FastAPI udviklingsserver, og dernæst at besøge den url som FastAPI giver dig i den browser (sidstnævnte gør vi i næste step).
@@ -110,7 +110,7 @@ Indtast derfor følgende kommando i din terminal (og tryk 'enter' ..):
 fastapi dev main.py
 ```
 
-### Besøg dit API i din browser
+### Step 5: Besøg dit API i din browser
 Med det skulle du gerne få et link i din terminal til dit API, som du bl.a. vil kunne se i browser.
 
 Helt konkret skulle du gerne få et link a la <code>http://127.0.0.1:8000</code> som du kan klikke på for at se dit API 'live' i din browser.
